@@ -78,12 +78,11 @@ const fi = (function () {
       }
     },
 
-    compact: function (array) {
-      const arr = []
-  
-      for (let i = 0; i < array.length; i++) {
-        if (array[i]) {
-          arr.push(array[i]);
+    compact: function (arr) {
+      let tmp = []
+      for (let i = 0; i < arr.length; i++) {
+        if (arr[i]) {
+          tmp.push(arr[i]);
         }
       }
       return arr;
