@@ -90,9 +90,7 @@ const fi = (function () {
 
     sortBy: function (array, callback) {
        for (let i = 0; i <arr.length;i++){
-        if (arr[i]) {
-          tmp.push(arr[i]);
-        }
+          tmp.push(callback(arr[i]));
       }
     },
 
