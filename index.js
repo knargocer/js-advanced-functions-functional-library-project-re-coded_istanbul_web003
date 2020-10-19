@@ -56,7 +56,7 @@ const fi = (function () {
       return arr
     },
 
-    size: function (collection) {
+    size: function(collection){
       return Object.keys(collection).length;
     },
 
@@ -71,7 +71,7 @@ const fi = (function () {
 
     last: function (arr, n) {
       if(n){
-        return arr.slice(0, (arr.length)-n);
+        return arr.slice(0, (arr.length)-1-n);
       } 
       else {
         return arr[(arr.length)-1] ;
