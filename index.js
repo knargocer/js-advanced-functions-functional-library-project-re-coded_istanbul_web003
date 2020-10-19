@@ -85,7 +85,7 @@ const fi = (function () {
           tmp.push(arr[i]);
         }
       }
-      return arr;
+      return tmp;
     },
 
     sortBy: function (arr, callback) {
