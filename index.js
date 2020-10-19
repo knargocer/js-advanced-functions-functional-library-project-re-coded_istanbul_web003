@@ -91,7 +91,7 @@ const fi = (function () {
     sortBy: function (arr, callback) {
        let tmp = []
        for (let i = 0; i <arr.length;i++){
-          tmp.push((callback(arr[i]));
+          tmp.push((callback(arr[i])));
       }
       return tmp;
     },
