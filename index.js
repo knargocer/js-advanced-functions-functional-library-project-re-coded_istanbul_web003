@@ -161,4 +161,4 @@ const fi = (function () {
       return results.sort()
     },
   }
-})()
+})();
