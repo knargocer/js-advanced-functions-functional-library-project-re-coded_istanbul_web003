@@ -71,7 +71,7 @@ const fi = (function () {
 
     last: function (arr, n) {
       if(n){
-        return arr.slice(0, (arr.length)-1-n);
+        return arr.slice(n, (arr.length)-1);
       } 
       else {
         return arr[(arr.length)-1] ;
