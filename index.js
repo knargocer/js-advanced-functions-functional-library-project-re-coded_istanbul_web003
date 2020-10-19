@@ -80,7 +80,7 @@ const fi = (function () {
 
     compact: function (arr) {
       let tmp = []
-      for (let i = 0; i < arr.length; i++) {
+      for (let i = 0; i <arr.length;i++){
         if (arr[i]) {
           tmp.push(arr[i]);
         }
