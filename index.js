@@ -89,9 +89,11 @@ const fi = (function () {
     },
 
     sortBy: function (arr, callback) {
+       let tmp = []
        for (let i = 0; i <arr.length;i++){
           tmp.push(sort(callback(arr[i])));
       }
+      return tmp;
     },
 
     flatten: function (input) {
